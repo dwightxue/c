@@ -20,17 +20,10 @@ div {
         font-size: 18px;
         padding: 12px;
         background: transparent;
-        color: white; 
+        color: black; 
         border-radius:50px;
-        background-color: white;
-        
-        
+        background-color: white;   
 }
-
-
-
-
-
 
 nav > h1{
     margin: 10px;
@@ -39,8 +32,6 @@ nav > h1{
     width: 30%;
     font-family: jost;
     color: white ;
-        
-    
 }
 
 nav{
@@ -85,14 +76,11 @@ a.b, a:hover{
     height: auto;
     width: 50%;
     overflow: hidden;
-    border-radius: 50px;
+    /* border-radius: 50px; */
     position: relative;
     font-family: jost;
     margin: 30px;
     left: 80px;
-
-   
-
 }
 
 .box-image img{
@@ -103,13 +91,10 @@ a.b, a:hover{
     box-shadow: 0 4px 5px -1px rgba(0,0,0,0.5);
     transition: 0.5s ease;
     opacity: 0.8;
-    
-    
 }
 
-.box-image:hover img{
+.box-image > img:hover{
     transform: scale(1.1);
-  
 }
 
 .box-image >p{
@@ -124,31 +109,35 @@ a.b, a:hover{
     font-size: 20px;
     border-radius: 50px;
     text-align: center;
-    
-    
 }
 
 .box-image a{
-    position: absolute;
-  
-   
-    font-size: 20px;
-    
+position: absolute;
+  font-size: 20px;   
 }
-
-
 
 .home2-image{
     height: auto;
-    width: 50%;
+    width: 60%;
     overflow: hidden;
     border-radius: 50px;
     position: relative;
     font-family: jost;
     margin: 40px;
-    
-    
-    
+
+     
+}
+
+.home2-image a{
+    border-radius: 50px;
+    border: 2px solid white;
+    border-color:#9351FF;
+    padding: 10px;
+    margin: 0 1em;
+    font-family: jost;
+    font-size: 15px;
+    justify-content: left;
+    color: white;
 }
 
 
@@ -156,10 +145,7 @@ a.b, a:hover{
     width: 100%;
     display: block;
     transition: transform 2s;
-    margin:0 10px;
-   
-        
-    
+    margin:30px;
 }
 
 
@@ -175,12 +161,9 @@ a.b, a:hover{
     font-size: 20px;
     border-radius: 50px;
     text-align: center;
-    
 }
 
-.home2-image > a{
-    position: fixed;
-}
+
 .btn{
     border-radius: 50px;
     border: 2px solid white;
@@ -197,7 +180,8 @@ h2{
     text-align: left;
     font-size: 40px;
     font-family: jost;
-
+    color: white;
+    
 
 }
 
@@ -223,4 +207,14 @@ h2{
     display: block;
     transition: transform 1s;
     margin:0 10px;
+}
+
+
+.heart-image{
+    width: 10%;
+   display: flex;
+}
+
+a{text-decoration: none;
+
 }

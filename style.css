@@ -209,7 +209,11 @@ h2{
     margin:0 10px;
 }
 
+.homeproduct-image > img:hover{
+       transform:scale(1.2);
 
+
+}
 .heart-image{
     width: 10%;
    display: flex;

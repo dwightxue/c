@@ -25,6 +25,7 @@ div {
         background-color: white;   
 }
 
+
 nav > h1{
     margin: 10px;
     height: 30px;
@@ -34,70 +35,104 @@ nav > h1{
     color: white ;
 }
 
+
+/* Dropdown */
 nav{
     background: #ea62e7;
-    border-radius: 3%;
+    border-radius: 10%;
     width: 100%;
+   
+    
 }
 
-nav > ul{
-    float: flex;
-    margin-right: 20px;
-    color: white;
+
+ol, ul {
+	list-style: none;
+    margin: 0;
     padding: 0;
-    margin: 20px;
-    box-sizing: border-box;
     text-align: center;
-
 }
-
-nav > ul > li{
-    display: inline-flex;
-    line-height: 50px;
-    margin:0 50px; 
-    color: white;
-}
-
-nav > ul > li > a{
-    color: white;
-    padding: 7px 13px;
-    border-radius: 3px;
-    text-transform: uppercase;
+  nav > ul{
+    display:flex;
+    flex-direction: row;
     text-align: center;
+    justify-content: center;
+    margin: 1%;
+    
+  }
 
-}
+  nav li{
+    border: 1px black solid;
+    padding: 0.5em 1em;
+    width: 7em;
+    background-color: #BCA8ED;
+       
+    transform: translateX(-1em);
+    display: inline-block;
+    justify-content: center;
+    
+    
+   
+   
+  }
+
+  nav ul ul{
+    transform: scale(1,0);
+     transform-origin: top center;
+     position: absolute;
+     top:100%;
+     transition: 0.4s;
+    text-align: center;
+    
+    
+     
+ }
+     
+ nav li:hover ul{
+  transform: scale(1,1);
+     transition: 0.3s;
+ }
 
 a.b, a:hover{
-    background:#BCA8ED;
+    background:#FF78BA;
     transition: 0.3s;
+    
 }
 
+
+  
 .box-image{
     height: auto;
-    width: 50%;
+    
+    max-width: 100%;
+    max-height: 40%;
     overflow: hidden;
     /* border-radius: 50px; */
     position: relative;
     font-family: jost;
     margin: 30px;
-    left: 80px;
+    display: grid;
+    grid-template-columns: 1fr, 1fr;
+    
 }
 
-.box-image img{
-    width: 100%;
+.box-image > img{
+    width: 50%;
+    margin: 50px;
     display:block;
     transition: transform 2s;
     border-radius: 50px;
     box-shadow: 0 4px 5px -1px rgba(0,0,0,0.5);
     transition: 0.5s ease;
     opacity: 0.8;
+   
 }
 
 .box-image > img:hover{
     transform: scale(1.1);
 }
 
-.box-image >p{
+.box-image > p{
     position: absolute;
     top: 8px;
     left: 16px;
@@ -109,16 +144,24 @@ a.b, a:hover{
     font-size: 20px;
     border-radius: 50px;
     text-align: center;
+    margin: 50px;
+   
 }
 
 .box-image a{
+width: 6%;
+height: 6%;
+font-size: 20px;  
+ top: 50%;
+display: flex;
 position: absolute;
-  font-size: 20px;   
+margin: 50px;
 }
 
 .home2-image{
-    height: auto;
-    width: 60%;
+   
+    width: 100%;
+    height: 100%;
     overflow: hidden;
     border-radius: 50px;
     position: relative;
@@ -129,38 +172,49 @@ position: absolute;
 }
 
 .home2-image a{
-    border-radius: 50px;
-    border: 2px solid white;
-    border-color:#9351FF;
-    padding: 10px;
-    margin: 0 1em;
-    font-family: jost;
-    font-size: 15px;
-    justify-content: left;
-    color: white;
+    width: 16%;
+    height: 16%;
+    font-size: 20px;  
+    top: 50%;  
+    display: flex;
+    position: absolute;
+    margin: 50px;
+    border-radius: 30%;
+    text-align: center;
+    max-width: 200px;
+    max-height: 900px;
 }
 
 
 .home2-image img{
-    width: 100%;
+    max-width: 300px;
+    max-height: 900px;
     display: block;
     transition: transform 2s;
     margin:30px;
+    border-radius: 50px;
+}
+
+.home2-image > img:hover{
+    transform: scale(1.1);
 }
 
 
 .home2-image > p{
     position: absolute;
     top: 8px;
-    left: 16px;
+    left: 0px;
     font-family: jost;
     padding-left: 20px;
     overflow: wrap;
     color: white;
     white-space: pre;
-    font-size: 20px;
+    font-size: 14px;
     border-radius: 50px;
     text-align: center;
+    margin: 50px;
+    max-width: 400px;
+    max-height: 900px;
 }
 
 
@@ -193,17 +247,18 @@ h2{
 
 
 .homeproduct-image{
-    height: auto;
-    width: 50%;
+    max-width: 300px;
+    max-height: 820px;
     overflow: hidden;
-    border-radius: 50px;
+    border-radius: 20px;
     position: relative;
     font-family: jost;
     margin: 40px;
 }
 
 .homeproduct-image img{
-    width: 50%;
+    width: 100%;
+    height: 100%;
     display: block;
     transition: transform 1s;
     margin:0 10px;
@@ -214,11 +269,25 @@ h2{
 
 
 }
-.heart-image{
-    width: 10%;
-   display: flex;
-}
+
 
 a{text-decoration: none;
 
+}
+
+.modal-cart{
+    display: none;
+}
+
+.open{
+    border-radius: 5px;
+    border: 0;
+
+    background-color: #ea62e7;
+    color: white;
+}
+
+.button{
+    background-color: #ea62e7;
+    color: white;
 }

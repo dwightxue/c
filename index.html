@@ -20,44 +20,75 @@
         
     </div>
         
+
+
      <ul>
+        
+           
           <li><a href = "index.html">H O M E</a></li>
-          <li><a href = "product.html">G E N R E</a></li>
+          <li><a href = "../HTML/product.html">G E N R E</a>
+            <ul>
+                <li><a href="../HTML/product.html">Fiction</a></li>
+                <li><a href="../HTML/product.html">Non-fiction</a></li>
+                
+              </ul>
+            </li>
+
+
           <li><a href = "#">B L O G </a></li>
           <li><a href = "#">C O N T A C T</a></li>
     </ul>
-      
+    
    </nav>
-   
 
    
    <div class="box-image">
-        <img src = "h1.jpg " alt="Catalogs image">
-        <p> G  E  T     U  P         T  O  <span style="font-size: 1.5em;">60%</span>   </p>     S  A  L  E<p>
+        <img src = "../Image/h1.jpg " alt="Catalogs image">
+        <p style="letter-spacing: 1vw;"> GET  UP TO  <span style="font-size: 1.5em;">60%</span>   SALE </p>   
+            <a class="btn" href="../HTML/product.html">SHOP  NOW</a>
               
-            <a class="btn" href="#">SHOP  NOW</a>   
              
      </div>
+     
     
     <div class="home2-image">
-        <img src ="home2.jpg">   
-        <p>  S   H   O    P </p>   
-        <p>B    Y &nbsp;          G    E   N    R    E</p>        
-        <a href ="product.html">SHOP  NOW</a>   
+        <img src ="../Image/home2.jpg">   
+    <p style="letter-spacing: 0.6vw;">SHOP BY GENRE</p>   
+              <a href ="../HTML/product.html">SHOP  NOW</a>   
     </div>
             
        
-<h2>New Release</h2>   
+<h2 >New Release</h2>   
     <div class="homeproduct-image">
-    <img src ="ph.jpg"> 
+    <img src ="../Image/ph.jpg"> 
    
-        </div>
+    </div>
    
 
     
-<div class="heart-image">
-    <img src ="heart.png">
-     </div>
+
+
+<button id="open">
+    Add to cart 
+</button>
+
+
+<div class="modalcart" id="modal-cart">
+    <div class="cart">
+        <h2>Added successfully</h2>
+
+        <button id="Close">
+            Close
+        </button>
+        <button id="Go to cart">
+            Go to cart
+        </button>
+    </div>
+</div>
+
+
+
+
 
 
 

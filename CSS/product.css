@@ -140,32 +140,14 @@ a.b, a:hover{
     
 }
  
-/* .topgenre::before{
-    position:absolute;
-    content: "";
-    top:4px;
-    left: 4px;
-    background-color: white;
-    height: 26px;
-    width: 26px;
-    border-radius: 50%;
-    transition: 50ms;
-    
-}
- */
+
 
 .topgenre-img > img:hover{
     
     border: 8px solid white;
     border-radius: 50%;
-    padding: 5%;
-  
-    
+    padding: 5%;   
 }
-
-
-
-
 
 a{
     text-decoration: none;

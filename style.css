@@ -285,67 +285,68 @@ button:hover{
 
 
 
-.home3-image{
+.home1presenter{
     
-    
-    overflow: hidden;
-    position: relative;
-    font-family: jost;
-   
-    display: flex;
-    justify-content: center;
-   
-
-    
-}
-
-.home3-image > img{
-    width: 30%;
-   
- display: block;
-   
-    
-    transition: transform 2s;
-    border-radius: 50px;
-    box-shadow: 0 4px 5px -1px rgba(0,0,0,0.5);
-    transition: 0.5s ease;
-    opacity: 0.8;
-   justify-content: center;
-   
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+   margin:auto;
+   grid-gap:20px;
+   overflow: auto;
    
 }
 
-.home3-image > img:hover{
-    transform: scale(1.1);
-}
-
-.home3-image > p{
-    position: absolute;
+.shopping-container > button{
+   
     top: 8px;
-    left: 40%;
+    left: 3%;
     font-family: jost;
-    padding-left: 20px;
+    
     overflow: wrap;
     color: white;
     white-space: pre;
     font-size: 17px;
     border-radius: 50px;
-    text-align: center;
-    margin: 50px;
+    display: flex;
    
 }
 
-.home3-image a{
-width: 6%;
-height: 6%;
-font-size: 20px;  
-top: 50%;
-display: flex;
-position: absolute;
-margin: 50px;
-border: 2px solid #9351FF;
-border-radius: 50px;
+
+
+.gallery{
+    margin: 5px;
+    border: 1px  white;
+    float: left;
+    display: block;
+    position: relative;
+  
+   
 }
+
+.gallery > img{
+    width: 60%;
+    height: auto;
+    margin: 1px;
+    border-radius: 10px; 
+}
+
+.gallery > a >img{
+    width: 60%;
+    height: auto;
+    margin: 1px;
+    border-radius: 10px; 
+}
+
+.gallery > a >img:hover{
+    transform:scale(1.1);
+    transition: 1.2s ease;
+}
+
+.gallery > img:hover{
+    transform:scale(1.1);
+    transition: 1.2s ease;
+}
+
+
 
 
 
@@ -407,20 +408,38 @@ border: 2px solid #9351FF;
 border-radius: 50px;
 }
 
-.title{
-    font-size: 25px;
+
+.home3-image{
+    height: auto; 
+    max-width: 100%;
+    max-height: 60%;
+    overflow: hidden;
+    position: relative;
     font-family: jost;
-    font-style: italic;
+    margin: 30px;
+    display: flex;
+    justify-content: left;
+    top: 80px;
+    
 }
 
-.title > p{
-    color:#969696;
+.home3-image > img{
+    width: 20%;
+    
+    margin: 50px;
+    display:block;
+    transition: transform 2s;
+    border-radius: 50px;
+    transition: 0.5s ease;
 }
 
+.home3-image > img:hover{
+    transform: scale(1.1);
+    
+}
 
-
-.shopping-container > button{
-   
+.home3-image > p{
+    position: absolute;
     top: 8px;
     left: 3%;
     font-family: jost;
@@ -430,8 +449,21 @@ border-radius: 50px;
     white-space: pre;
     font-size: 17px;
     border-radius: 50px;
-    display: flex;
+    
+    margin: 50px;
    
+}
+
+.home3-image a{
+width: 6%;
+height: 6%;
+font-size: 20px;  
+top: 50%;
+display: flex;
+position: absolute;
+margin: 50px;
+border: 2px solid #9351FF;
+border-radius: 50px;
 }
 
 
@@ -440,47 +472,15 @@ border-radius: 50px;
 
 
 
-
-
-.home4-image{
-    
-    
-   display: flex;
-    overflow: hidden;
-    position: relative;
+.title{
+    font-size: 25px;
     font-family: jost;
-   
-    
-    justify-content: center;
-   
-
-    
+    font-style: italic;
 }
 
-.home4-image > img{
-    top:-90%;
-    width: 15%;
-    height: 10%;
-    display: flex;
- 
-  padding: 5px;
-   
-    top: 50%;
-    transition: transform 2s;
-    border-radius: 50px;
-    box-shadow: 0 4px 5px -1px rgba(0,0,0,0.5);
-    transition: 0.5s ease;
-    opacity: 0.8;
-   justify-content: center;
-   
-   
+.title > p{
+    color:#969696;
 }
-
-.home4-image > img:hover{
-    transform: scale(1.1);
-}
-
-
 
 .title2{
     font-size: 25px;

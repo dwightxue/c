@@ -180,7 +180,7 @@ th{
     text-align: left;
     padding: 5px;
     color: white;
-    background: #ff523b;
+    background:  #BCA8ED;
     font-weight: normal;
    
 }
@@ -220,7 +220,7 @@ th{
 }
 
 .total-price >table{
-    border-top: 3px solid #ff523b;
+    border-top: 3px solid #BCA8ED;
     width: 100%;
     max-width: 350px;
 }

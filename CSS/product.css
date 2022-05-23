@@ -1,7 +1,7 @@
 body{
     background: linear-gradient(to left top, #FF78BA, #3913B8) ;
     font-family: jost;
-    
+ 
     }
 
 #searchbox{
@@ -10,7 +10,8 @@ body{
 }
 
 div {
-    text-align: center;   
+    text-align: center; 
+    
 }
 
 #searchbox > input {
@@ -39,7 +40,7 @@ nav > h1{
 /* Dropdown */
 nav{
     background: #ea62e7;
-    border-radius: 10%;
+    border-radius: 5%;
     width: 100%;
    
     
@@ -62,10 +63,11 @@ ol, ul {
   }
 
   nav li{
-    border: 1px black solid;
+    border: 1px #FF78BA solid;
     padding: 0.5em 1em;
     width: 7em;
-    background-color: #BCA8ED;
+    color: white;
+    background-color: white;
        
     transform: translateX(-1em);
     display: inline-block;
@@ -94,62 +96,240 @@ ol, ul {
  }
 
 a.b, a:hover{
-    background:#FF78BA;
+    color: #FF78BA;
     transition: 0.3s;
     
-}
-
-
-
-.topgenre{
-    
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    /* border-radius: 50px; */
-    position: relative;
-    font-family: jost;
-    margin: 30px;
-    display: grid;
-    grid-template-columns: 1fr, 1fr;
-    
-    
-    
-}
-.topgenre-category{
-    margin-top: 0px;
-    width: 80%;
-    height: 150px;
-   
-}
-
-.topgenre-img{
-
-    width: 10%;
-}
-.topgenre-img img{
-    width: 100%;
-    display:block;
-    transition: transform 2s;
-    border-radius: 50px;
-    box-shadow: 0 4px 5px -1px rgba(0,0,0,0.5);
-   /* transition: 0.5s ease;*/
-    opacity: 0.8;
-    clip-path: circle();
-    
-    
-}
- 
-
-
-.topgenre-img > img:hover{
-    
-    border: 8px solid white;
-    border-radius: 50%;
-    padding: 5%;   
 }
 
 a{
     text-decoration: none;
 
 }
+
+
+
+button{
+    border: 2px solid #BCA8ED;
+    background:#BCA8ED;
+    font-weight: bold;
+    margin: 20px;
+    padding: 5px 10px;
+    border-radius: 50px;
+    font-family: jost;
+    display: flex;
+    
+}
+
+button:hover{
+    box-shadow: 0 0 5px 5px;
+    
+   
+}
+
+.counter{
+   
+    top: 1px;
+}
+
+.cart{
+    position: absolute;
+    width: 30%;
+  padding-left: 60%;
+   
+}
+
+.cart a{
+    padding: 5px;
+    border: 2px solid #BCA8ED;
+    text-decoration: none;
+   border-radius: 16px;
+    color: white;
+    background-color: #BCA8ED;
+    font-size: 25px;
+  
+    
+}
+
+.details{padding-left: 30%;
+    display: block;
+    font-family: jost;
+    padding: 5px;
+    
+  
+}
+
+.details >input{
+    position: absolute;
+    top: 30%;
+    width: 2%;
+}
+
+.details >h4{
+    font-size: 20px;
+    
+   
+}
+
+
+.details >h1{
+        position: absolute;
+        font-family: jost sans-serif;   
+}
+
+.details >p{
+    position: absolute;
+    padding: 8px;
+    margin: 25px;
+    text-align: justify;
+    padding-top: 3%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.number{
+    position: relative;
+    padding-top: 30%;
+}
+
+
+.productimage{
+  
+    position: absolute;
+    left: 0%;
+
+}
+
+
+.product-container{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+
+}
+
+
+
+
+.productimage >img{
+    height: 30%;
+   width: 30%;
+cursor: pointer;
+padding-left: 90%;
+display: flex;
+
+
+}
+
+
+
+
+.shopping-container{
+    display: flex;
+   padding-top: 10%;
+    padding-left: 50%;
+}
+
+
+
+
+.shopping-container > button{
+   
+    top: 8px;
+    left: 3%;
+    font-family: jost;
+    
+    overflow: wrap;
+    color: white;
+    white-space: pre;
+    font-size: 17px;
+    border-radius: 50px;
+    display: flex;
+   justify-content: cen;
+}
+
+.add-animation2{
+    
+    top: 8px;
+    left: 3%;
+    font-family: jost;
+    
+    overflow: wrap;
+    color: white;
+    white-space: pre;
+    font-size: 17px;
+    border-radius: 50px;
+    display: flex;
+   padding-left: 10%;
+}
+
+@media only screen and (max-width:780px) {
+
+
+
+    .shopping-container{width: 100%;
+    padding-top: 150%;
+            padding-left: 10%;}
+
+
+    .productimage >img{width: 40%;
+        position: relative;
+        padding-left: 120%;
+        padding: 30px;
+    }
+
+    .details >h1{
+        width: 100%;
+        padding-top: 90%;
+        left: 1%;
+    }
+
+
+    .details >p{
+        width: 100%;
+        padding-top: 90%;
+        left: 1%;
+    }
+
+    .details >input{
+        width: 10%;
+        top: 66%;
+        left:10%;
+    }
+
+    .details >h4{
+            width: 100%;
+           padding-bottom: 10%;
+           
+        }
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

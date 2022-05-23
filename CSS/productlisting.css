@@ -1,7 +1,7 @@
 body{
     background: linear-gradient(to left top, #FF78BA, #3913B8) ;
     font-family: jost;
-    
+ 
     }
 
 #searchbox{
@@ -10,7 +10,8 @@ body{
 }
 
 div {
-    text-align: center;   
+    text-align: center; 
+    
 }
 
 #searchbox > input {
@@ -39,7 +40,7 @@ nav > h1{
 /* Dropdown */
 nav{
     background: #ea62e7;
-    border-radius: 10%;
+    border-radius: 5%;
     width: 100%;
    
     
@@ -62,10 +63,11 @@ ol, ul {
   }
 
   nav li{
-    border: 1px black solid;
+    border: 1px #FF78BA solid;
     padding: 0.5em 1em;
     width: 7em;
-    background-color: #BCA8ED;
+    color: white;
+    background-color: white;
        
     transform: translateX(-1em);
     display: inline-block;
@@ -94,15 +96,14 @@ ol, ul {
  }
 
 a.b, a:hover{
-    background:#FF78BA;
+    color: #FF78BA;
     transition: 0.3s;
     
 }
 
 
-
 .topgenre{
-    
+   
     width: 100%;
     height: 100%;
     overflow: hidden;
@@ -110,9 +111,10 @@ a.b, a:hover{
     position: relative;
     font-family: jost;
     margin: 50px;
-    display: flex;
+   
     
-    padding-left: 50%;
+    
+    padding-right: 50%;
     
 }
 .topgenre-category{
@@ -132,22 +134,28 @@ a.b, a:hover{
 }
 
 .topgenre-img{
-    
+    padding: 1px;
     width: 10%;
+    float: left;
+    padding-right: 5%;
+   
+   
+    
 }
 .topgenre-img img{
     width: 100%;
-    display:block;
+    display:flex;
     transition: transform 2s;
     border-radius: 50px;
     box-shadow: 0 4px 5px -1px rgba(0,0,0,0.5);
-   
+  
     opacity: 0.8;
     clip-path: circle();
     
     
 }
  
+
 
 
 .topgenre-img > img:hover{
@@ -172,6 +180,7 @@ a{
    grid-gap:20px;
    overflow: auto;
    
+   
 }
 
 .gallery{
@@ -180,7 +189,7 @@ a{
     float: left;
     display: block;
     position: relative;
-  
+    
    
 }
 
@@ -189,6 +198,7 @@ a{
     height: auto;
     margin: 1px;
     border-radius: 10px; 
+  
 }
 
 .gallery > a >img{
@@ -215,6 +225,7 @@ a{
     font-family: jost;
     font-size: 25px;
     color: white;
+    font-style: italic;
 }
 
 .title > p{
@@ -268,6 +279,7 @@ button{
     border-radius: 50px;
     font-family: jost;
     display: flex;
+    font-weight: bold;
     
 }
 
@@ -323,6 +335,18 @@ button:hover{
    nav.h1{width: 100%;}
    
    div.shopping-container{right:25%;}
+   div.sidebar{width: 100%;}
+   div.topgenre{width: 100%;
+    right: 55%;
+    height: 100%;}
+   div.topgenre-img{width: 100%;
+                       }
   
+   
 }
+
+
+
+
+
 

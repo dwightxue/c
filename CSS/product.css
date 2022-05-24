@@ -117,6 +117,8 @@ button{
     border-radius: 50px;
     font-family: jost;
     display: flex;
+    color: white;
+    font-size: 20px;
     
 }
 
@@ -161,19 +163,25 @@ button:hover{
 .details >input{
     position: absolute;
     top: 30%;
-    width: 2%;
+    width: 3%;
+    right:46%;
 }
 
 .details >h4{
-    font-size: 20px;
-    
+    font-size: 25px;
+    padding-top: 120%;
+    color: white;
+    display: flex;
+    padding-left: 70%;
    
 }
 
 
 .details >h1{
         position: absolute;
-        font-family: jost sans-serif;   
+        font-family: jost sans-serif;  
+        color: white; 
+        padding-left: 1%;
 }
 
 .details >p{
@@ -182,6 +190,8 @@ button:hover{
     margin: 25px;
     text-align: justify;
     padding-top: 3%;
+    color: white;
+   
 }
 
 
@@ -226,6 +236,7 @@ button:hover{
 cursor: pointer;
 padding-left: 90%;
 display: flex;
+padding-top: 5%;
 
 
 }
@@ -257,16 +268,22 @@ display: flex;
    justify-content: cen;
 }
 
+
+
+
+
+
+
 .add-animation2{
     
     top: 8px;
     left: 3%;
     font-family: jost;
-    
-    overflow: wrap;
     color: white;
+    overflow: wrap;
+    
     white-space: pre;
-    font-size: 17px;
+    font-size: 20px;
     border-radius: 50px;
     display: flex;
    padding-left: 10%;
@@ -274,16 +291,18 @@ display: flex;
 
 @media only screen and (max-width:780px) {
 
-
+    .details{
+        left: 10%;
+    }
 
     .shopping-container{width: 100%;
-    padding-top: 150%;
-            padding-left: 10%;}
+    padding-top: 170%;
+            padding-left: 19%;}
 
 
-    .productimage >img{width: 40%;
+    .productimage >img{width: 50%;
         position: relative;
-        padding-left: 120%;
+        left: 20%;
         padding: 30px;
     }
 
@@ -296,8 +315,11 @@ display: flex;
 
     .details >p{
         width: 100%;
-        padding-top: 90%;
-        left: 1%;
+        padding-top: 110%;
+        display: flex;
+        justify-content: space-evenly;
+        left: 0.0000000001%;
+        
     }
 
     .details >input{
@@ -307,21 +329,87 @@ display: flex;
     }
 
     .details >h4{
-            width: 100%;
-           padding-bottom: 10%;
-           
+            
+         display: none;
         }
 
+       
 
+        .cart >a{
+            right: 10%;
+          bottom: 18%;
+        }
 
-
-
-
-
+       
 }
 
 
 
+
+
+.related-product{
+  
+    
+    grid-template-columns: repeat(4,1fr);
+   margin: auto;
+   padding-left: 10%;
+   
+}
+
+
+h2{
+    font-size: 24px;
+    color: white;
+    border-top: 2px solid white;
+ 
+   
+   
+}
+
+
+
+
+
+
+
+
+
+
+.gallery{
+    margin: 20px;
+    border: 1px  white;
+    float: left;
+    display: block;
+    position: relative;
+    padding: 50px;
+    
+   
+}
+
+.gallery > img{
+    width: 60%;
+    height: auto;
+    margin: 1px;
+    border-radius: 10px; 
+  
+}
+
+.gallery > a >img{
+    width: 60%;
+    height: auto;
+    margin: 1px;
+    border-radius: 10px; 
+}
+
+.gallery > a >img:hover{
+    transform:scale(1.1);
+    transition: 1.2s ease;
+}
+
+.gallery > img:hover{
+    transform:scale(1.1);
+    transition: 1.2s ease;
+}
 
 
 

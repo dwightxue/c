@@ -170,17 +170,64 @@ button:hover{
 
 
 
+.check-out >ul >li >a{
+    text-transform: uppercase;
+    padding: 10px;
+    color: white;
+    background-color: #BCA8ED;
+    padding: 4px;
+    display: block;
+    border-radius: 50px;
+    
+}
+
+.check-out >input{
+    width: 35px;
+    position: relative;
+    margin-right: 5px;
+    outline: none;
+    border: 2px solid #ea62e7;
+    color: #ea62e7;
+    
+}
+
+.total-price{
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.total-price >table{
+    padding-right: 60%;
+    width: 100%;
+    max-width: 350px;
+    font-size: 20px;
+    
+}
+
+.order-summary{
+    display: flex;
+    justify-content: right;
+}
 
 
+.form1 >label{
+    display: block;
+    color: white;
+    width: 10%;
+    padding: 10px;
+    
 
+}
 
+h2{
+    color: white;
+}
 
-
-
-
-
-
-
+.billing {
+    display: flex;
+    justify-content: space-between;
+}
 
 
 

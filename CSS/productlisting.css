@@ -345,6 +345,36 @@ button:hover{
    
 }
 
+.sidebar{
+    margin: 0;
+    
+    user-select: none;
+    box-sizing: border-box;
+    height: 100%;
+    left: 0;
+    background-color: aliceblue;
+    position: relative;
+    width: 20%;
+    
+}
+
+.sidebar > text{
+    color: white;
+    font-size: 50px;
+    
+    
+}
+
+
+
+
+.sidebar >ul >li{
+   line-height: 60px;
+   padding-right: 74%;
+   font-size: 20px;
+   font-family: jost;
+}
+
 
 
 

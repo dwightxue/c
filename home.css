@@ -299,15 +299,50 @@ button:hover{
     div.box-image >p{width: 100%;
                     left: 30%;}
    
+        .home2-image{width: 120%;}
+    div.home2-image >img{width: 400%;
+    padding-right: 10%;}
 
-    div.home2-image{display: none;}
+
+        .cart{top: 30%;
+        position: relative;}
+
+
+
+
+
+
+
+        .cart >a{
+            margin-left: 30%;}
+        .home2-image >p{
+            width: 130%;}
+
+            .bigimage{width: 100%;
+              
+            }
+        
+          .count{display: none;}
+
+    .shopping-container >button{
+       margin-left:-25px;
+    }
+
     nav.h1{width: 100%;}
-    div.home3-image > img{width: 100%;}
-    div.home3-image > p{width: 10%;}
-    div.home3-image > a{width: 30%;
-    display: flex;}
+    div.home3-image{display: none;}
 
     div.home4-image{display:none;}
+    
+ 
+  
+  
+  
+  
+  
+  
+  
+  
+    .home1presenter{width: 200%;}
 }
 
 

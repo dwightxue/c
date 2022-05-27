@@ -144,6 +144,40 @@ a.b, a:hover{
     clip-path: circle();
 }
  
+.topgenre-img1{
+    padding: 1px;
+    width: 10%;
+    flex: 33.33%;
+    
+    
+   
+    padding-right: 5%;
+}
+.topgenre-img1 img{
+    width: 100%;
+    display:flex;
+    transition: transform 2s;
+    border-radius: 50px;
+    box-shadow: 0 4px 5px -1px rgba(0,0,0,0.5);
+    opacity: 0.8;
+    clip-path: circle();
+}
+
+
+.topgenre-img1 > img:hover{
+    
+    border: 8px solid white;
+    border-radius: 50%;
+    padding: 5%;   
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -208,8 +242,13 @@ a{
 }
 
 
+
+
+
+
+
 .title{
-    padding: 10px;
+    padding: 10px;  
     text-align: center;
     font-family: jost;
     font-size: 25px;
@@ -218,7 +257,7 @@ a{
 }
 
 .title > p{
-    color:#ff4545
+    color:white
 }
 
 .shopping-container{
@@ -233,9 +272,9 @@ a{
 .shopping-container > button{
    
     top: 8px;
-    left: 3%;
-    font-family: jost;
     
+    font-family: jost;
+    margin-left: -4%;
     overflow: wrap;
     color: white;
     white-space: pre;
@@ -269,6 +308,7 @@ button{
     font-family: jost;
     display: flex;
     font-weight: bold;
+    
     
 }
 
@@ -325,15 +365,17 @@ button:hover{
    
    div.shopping-container{right:25%;}
    div.sidebar{width: 100%;}
-   div.topgenre{width: 100%;
-    right: 55%;
-    height: 100%;}
-   div.topgenre-img{width: 100%;
-                       }
   
-   
-}
+   div.topgenre-img >img{display: none;}
+   div.topgenre-img >p{display: none;}
+   div.topgenre-img1 >img{width: 500%;
+display: flex;}
+div.topgenre-img1 >p{margin-left:180%;}
 
+
+
+
+}
 .sidebar{
     margin: 0;
     

@@ -103,7 +103,7 @@ a.b, a:hover{
 
 a{
     text-decoration: none;
-
+    left: 40%;
 }
 
 
@@ -197,7 +197,7 @@ th{
 
 .cart-info > small{
     color: white;
-    left:90%;
+    margin-left:-27%;
     padding-top: 10%;
     right: 40%;
 }
@@ -228,11 +228,12 @@ th{
 
 .total-price >table{
     border-top: 3px solid #BCA8ED;
-    width: 100%;
+    width: 70%;
     max-width: 350px;
     color: white;
     margin-bottom: 1rem;
-    padding: 1rem;
+    padding: 5px;
+
     
 }
 
@@ -248,7 +249,9 @@ th{
     border: 2px solid white;
     border-radius: 50px;
     color: white;
-    right: 50%;
+    margin-left: 70%;
+    font-size: 17px;
+
   
 }
 
@@ -257,17 +260,28 @@ th{
 
 @media only screen and (max-width:780px) {
     div.cart-container >th{width: 100%;
-                                padding-right: 80%;}
+                                margin-left: -70%;}
     
-    div.cart-container >tr{width: 100%;
-                                    padding-right: 80%;}
+    div.cart-container >td{width: 100%;
+                                    margin-left: -10%;}
 
-    div.cart-container{width: 70%;
-    padding-right: 50%;
+    div.cart-container{width: 90%;
+    margin-left: -10%;
 left: 30%;}
 
 
 
+    .cart-info >small{
+        margin-left: 20%;
+    }
+
+       .cart-container > input{
+           width: 10%;
+       }
+
+    .total-price >table{
+        width: 100%;
+    }
 
     .cart-info p{
         display: none;
@@ -284,7 +298,12 @@ left: 30%;}
 
     div.cart-info >img{width: 140%;
     }
-
+    .check-out-button{
+        width: 40%;
+        display: flex;
+        margin-left: 60%;
+        
+    }
 
 
 
@@ -297,6 +316,18 @@ footer{
     font-family: jost;
     font-size: 15px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

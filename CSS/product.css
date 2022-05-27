@@ -162,7 +162,7 @@ button:hover{
 
 .details >input{
     position: absolute;
-    top: 30%;
+    bottom:320px ;
     width: 3%;
     right:46%;
 }
@@ -189,7 +189,7 @@ button:hover{
     padding: 8px;
     margin: 25px;
     text-align: justify;
-    padding-top: 3%;
+    padding-top: 1%;
     color: white;
    
 }
@@ -234,7 +234,7 @@ button:hover{
     height: 30%;
    width: 30%;
 cursor: pointer;
-padding-left: 90%;
+padding-left: 50%;
 display: flex;
 padding-top: 5%;
 
@@ -255,7 +255,7 @@ padding-top: 5%;
 
 .shopping-container > button{
    
-    top: 8px;
+    top: 19px;
     left: 3%;
     font-family: jost;
     
@@ -297,7 +297,7 @@ padding-top: 5%;
 
     .shopping-container{width: 100%;
     padding-top: 170%;
-            padding-left: 19%;}
+            padding-left: 1%;}
 
 
     .productimage >img{width: 50%;
@@ -316,16 +316,17 @@ padding-top: 5%;
     .details >p{
         width: 100%;
         padding-top: 110%;
-        display: flex;
+        
         justify-content: space-evenly;
-        left: 0.0000000001%;
+        left:0.111111111111%;
         
     }
 
     .details >input{
         width: 10%;
-        top: 66%;
+        top:82%;
         left:10%;
+        height: 3%;
     }
 
     .details >h4{
@@ -405,7 +406,3 @@ h2{
 .related-product >h2{
     padding-left: 40%;
 }
-
-
-
-

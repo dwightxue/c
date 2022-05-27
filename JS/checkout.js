@@ -32,16 +32,3 @@ form.addEventListener('submit', (e) => {
 
 
 })
-
-
-
-
-
-
-
-
-
-
-
-
-

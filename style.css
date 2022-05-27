@@ -10,28 +10,6 @@ body{
 }
 
 
-.bigimage{
-    background-image: url(Image/bighome.jpg);
-    background-size: cover;
-    background-position: cover;
-    width: 100%;
-    height: 100vh;
-    
-
-}
-
-.bigimage >p{
-    font-size: 30px;
-    font-family: jost;
-    color: white;
-}
-
-.bigimage >a{
-    font-size: 30px;
-    
-    justify-content: left;
-}
-
 
 div {
     text-align: center; 

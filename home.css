@@ -65,10 +65,7 @@ nav > h1{
 nav{
     background: #ea62e7;
     border-radius: 5%;
-    width: 100%;
-   
-   
-    
+    width: 100%; 
 }
 
 
@@ -84,7 +81,6 @@ ol, ul {
     text-align: center;
     justify-content: center;
     margin: 1%;
-    
   }
 
   nav li{
@@ -97,10 +93,6 @@ ol, ul {
     transform: translateX(-1em);
     display: inline-block;
     justify-content: center;
-    
-    
-   
-   
   }
 
   nav ul ul{
@@ -129,17 +121,12 @@ a.b, a:hover{
 
   
 .box-image{
-    
-    
- 
     overflow: hidden;
-    /* border-radius: 50px; */
     position: relative;
     font-family: jost;
     margin: 30px;
     display: grid;
     grid-template-columns: 1fr, 1fr;
-    
 }
 
 .box-image > img{
@@ -151,7 +138,6 @@ a.b, a:hover{
     box-shadow: 0 4px 5px -1px rgba(0,0,0,0.5);
     transition: 0.5s ease;
     opacity: 0.8;
-   
 }
 
 .box-image > img:hover{
@@ -170,8 +156,7 @@ a.b, a:hover{
     font-size: 20px;
     border-radius: 50px;
     text-align: center;
-    margin: 50px;
-   
+    margin: 50px;  
 }
 
 .box-image a{
@@ -302,17 +287,13 @@ button:hover{
         .home2-image{width: 120%;}
     div.home2-image >img{width: 400%;
     padding-right: 10%;}
-
-
+        .home2-image >a{
+            color: white;
+            padding-right: 50%;
+            display: flex;
+        }
         .cart{top: 30%;
         position: relative;}
-
-
-
-
-
-
-
         .cart >a{
             margin-left: 30%;}
         .home2-image >p{
@@ -320,28 +301,14 @@ button:hover{
 
             .bigimage{width: 100%;
               
-            }
-        
+            }  
           .count{display: none;}
-
     .shopping-container >button{
        margin-left:-25px;
     }
-
     nav.h1{width: 100%;}
     div.home3-image{display: none;}
-
     div.home4-image{display:none;}
-    
- 
-  
-  
-  
-  
-  
-  
-  
-  
     .home1presenter{width: 200%;}
 }
 

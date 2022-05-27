@@ -103,26 +103,19 @@ a.b, a:hover{
 
 
 .topgenre{
-   
     width: 100%;
     height: 100%;
     overflow: hidden;
-   
     position: relative;
     font-family: jost;
     margin: 50px;
-   
-    
-    
-    padding-right: 50%;
-    
+    padding-right: 50%; 
+    display: flex;
 }
 .topgenre-category{
     margin-top: 0px;
     width: 80%;
     display: flex;
-    
-    
 }
 
 .topgenre-category >a{
@@ -130,17 +123,16 @@ a.b, a:hover{
     display: flex;
     font-family: jost;
     border-radius: 50px;
-    
 }
 
 .topgenre-img{
     padding: 1px;
     width: 10%;
-    float: left;
-    padding-right: 5%;
-   
-   
+    flex: 33.33%;
     
+    
+   
+    padding-right: 5%;
 }
 .topgenre-img img{
     width: 100%;
@@ -148,11 +140,8 @@ a.b, a:hover{
     transition: transform 2s;
     border-radius: 50px;
     box-shadow: 0 4px 5px -1px rgba(0,0,0,0.5);
-  
     opacity: 0.8;
     clip-path: circle();
-    
-    
 }
  
 
@@ -379,4 +368,10 @@ button:hover{
 
 
 
-
+footer{
+    background:#9351FF;
+    padding-bottom: 5%;
+    color: white;
+    font-family: jost;
+    font-size: 15px;
+}

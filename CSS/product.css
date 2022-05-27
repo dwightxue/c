@@ -386,44 +386,26 @@ h2{
    
 }
 
-.gallery > img{
-    width: 60%;
-    height: auto;
-    margin: 1px;
-    border-radius: 10px; 
-  
+
+
+
+
+.related-product{
+    padding: 40px;
+    
+    
 }
 
-.gallery > a >img{
-    width: 60%;
-    height: auto;
-    margin: 1px;
-    border-radius: 10px; 
+.related-product > .gallery >img{
+    width: 30%;
+    flex: 33.33%;
+    padding: 5px;
 }
 
-.gallery > a >img:hover{
-    transform:scale(1.1);
-    transition: 1.2s ease;
+.related-product >h2{
+    padding-left: 40%;
 }
 
-.gallery > img:hover{
-    transform:scale(1.1);
-    transition: 1.2s ease;
-}
-
-
-
-
-
-
-
-footer{
-    background:#9351FF;
-    bottom: 40%;
-    color: white;
-    font-family: jost;
-    font-size: 15px;
-}
 
 
 
